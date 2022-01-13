@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <header>
@@ -14,16 +14,17 @@
     <main class="contenido">
         <div class="login-cont">
             <h2 class="subtitulo">Login </h2>
-            <form action="coment.html" class="login">
+            <form class="login" action="coment.html" id="formulario" onsubmit="return guardar()">
                
                 
                     <input type="text" id="User" class="elemt entr"  placeholder="Username">
                 
-              
-                    <input type="submit" class="elemt botonAcep">
+                    <button class="elemt botonAcep" id="pasoPage">Enviar</button>
+                    
                 
             </form>
         </div>
     </main>
+    <script src="main.js"></script>
 </body>
 </html>
